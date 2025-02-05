@@ -1,77 +1,81 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Марий Йылме - Учим марийский язык</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/normalize.css">
 </head>
 <body>
-    <header class="header">
-       <img class="header__logo" src="images/logo.jpg" alt="логотип">
-       <nav class="header__menu menu">
-        <ul class="menu__list">
-            <li class="menu__item"><a class="menu__link menu__link--active" href="#"> Главная</a></li>
-            <li class="menu__item"><a class="menu__link" href="#"> Новости</a></li>
-            <li class="menu__item"><a class="menu__link" href="#"> Статьи</a></li>
-            <li class="menu__item"><a class="menu__link" href="#"> О нас</a></li>
+
+  <header class="header">
+    <div class="header__container">
+      <a href="/" class="header__logo">Марий Йылме</a>
+      <nav class="header__nav nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#" class="nav__link">Уроки</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Словарь</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Грамматика</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Культура</a></li>
         </ul>
-       </nav>
-       <button class="header__button"> Войти / Зарегистрироваться</button>
-      </header>
-    <main>
-        <section class="course">
-            <p class="course__text">Марийский язык</p>
-            <h1 class="course__title">Курсы марийского языка и литературы</h1>
-            <a class="course__link" href="#">Записаться на курс</a>
-
-        <section>
-            <img src="images/logo.jpg" alt="logo1"> 
-        </section>
-        <section class="timetable"> 
-            <div class="timetable__block">
-                <h2 class="timetable__title">Расписание занятий по марийскому языку</h2>
-                <p> ПН ВТ СР ЧТ ПТ<p>
-                <a  class="timetable__link" href="#">Связаться с нами</a>
-            </div>
-            <div class="timetable__block">
-                <h2 class="timetable__title"> Расписание занятий по марийской литературе</h2>
-                <img  class="timetable__img" src="images/person.jpg" alt="person">
-                <a class="timetable__link" href="#">Подробнее</a>
-            </div>
-        </section>
-    </main>
-    <!--Основной контент-->
-    <!--Подвал-->
-    <footer class="footer">
-        <img class="footer__image" src="images/icon/WhatsApp.png" alt="">
-        <img class="footer__image" src="images/icon/Telegram App.png" alt="">
-        </nav>
-        <nav class="footer__menu menu">
-            <ul class="menu__list">
-                <li class="menu__item"><a class="menu__link menu__link--active" href="#"> Главная</a></li>
-                <li class="menu__item"><a class="menu__link" href="#"> Новости</a></li>
-                <li class="menu__item"><a class="menu__link" href="#"> Обучение</a></li>
-                <li class="menu__item"><a class="menu__link" href="#"> Статьи</a></li>
-                <li class="menu__item"><a class="menu__link" href="#"> О нас</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Помощь</a></li>
-            </ul>
-           </nav>
-    </footer>
-    <!--Основной контент-->
-    <!--Подвал-->
-    <section>
-        <!--/Форма "Войдите в профиль"-->
-        <!--/"Регистрация"-->
-        <div class="registration__layout">
-            <button
-        </div>
-    </section>
-    
-        
-
+        <button class="nav__button button">Войти</button>
+      </nav>
     </div>
-    
+  </header>
+
+  <main class="main">
+    <section class="main__hero hero">
+      <div class="hero__content">
+        <h1 class="hero__title">Изучай марийский язык легко и интересно!</h1>
+        <p class="hero__description">Добро пожаловать на наш сайт, где вы сможете выучить марийский язык с нуля или улучшить свои знания.</p>
+        <button class="hero__button button">Начать обучение</button>
+      </div>
+      <img src="images/people.jpg" alt="" class="hero__image">
+    </section>
+    <section class="main__features features">
+      <h2 class="features__title">Почему стоит учить марийский язык?</h2>
+      <ul class="features__list">
+        <li class="features__item">
+          <img src="images/flag-map.jpg" alt="Культура" class="features__item-image">
+          <h3 class="features__item-title">Сохранение культуры</h3>
+          <p class="features__item-description">Изучение языка - это вклад в сохранение богатой марийской культуры.</p>
+        </li>
+        <li class="features__item">
+          <img src="" alt="Общение" class="features__item-image">
+          <h3 class="features__item-title">Новые возможности общения</h3>
+          <p class="features__item-description">Вы сможете общаться с носителями языка и понимать их культуру.</p>
+        </li>
+        <li class="features__item">
+          <img src="" alt="Знания" class="features__item-image">
+          <h3 class="features__item-title">Расширение кругозора</h3>
+          <p class="features__item-description">Изучение нового языка развивает мышление и расширяет кругозор.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="main__culture culture">
+      <h2 class="culture__title">Марийская культура</h2>
+      <div class="culture__container">
+        <img src="" alt="карта Марий Эл" class="culture__image">
+        <p class="culture__description">Марий Эл - республика в составе Российской Федерации, регион с богатой историей и уникальными традициями.</p>
+      </div>
+    </section>
+
+    <section class="main__lessons lessons">
+      <h2 class="lessons__title">Интересные факты о марийском языке</h2>
+      <ul class="lessons__list">
+        <li class="lessons__item">
+          <h3 class="lessons__item-title">Марийский язык относится к финно-угорской языковой семье</h3>
+          <img src="" alt="Финно-угорская семья" class="lessons__item-image">
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__copyright">&copy; 2025 </p>
+  </footer>
 
 </body>
 </html>
